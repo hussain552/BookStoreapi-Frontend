@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: your-service-name  # Replace with your desired service name
+    env: static
+    staticPublishPath: ./build  # Path to your build folder
+    routes:
+      - type: rewrite
+        source: /.*
+        destination: /index.html
