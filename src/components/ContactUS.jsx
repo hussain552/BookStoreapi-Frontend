@@ -19,7 +19,7 @@ const ContactUS = () => {
     // Add your API call here to submit form data
 
     try {
-      const response = await axios.post('http://localhost:4001/ContactUs', formData);
+      const response = await axios.post('https://bookstoreapi-backend-1.onrender.com/ContactUs', formData);
       setStatusMessage(response.data.msg);  // Success message from server
       setFormData({
         name: '',

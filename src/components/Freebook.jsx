@@ -12,7 +12,7 @@ function Freebook() {
     const getBook = async () => {
       try {
         // Fetch data from the backend API
-        const res = await axios.get("http://localhost:4001/bookapi");
+        const res = await axios.get("https://bookstoreapi-backend-1.onrender.com/bookapi");
         console.log(res.data);  // Inspect the response data
 
         // Filter books by price < 50
