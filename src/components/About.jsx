@@ -60,12 +60,12 @@ const AboutUs = () => {
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="./public/pexels-pixabay-247599.jpg" />
+            <img src="/pexels-pixabay-247599.jpg" />
             <h3>Jane Doe</h3>
             <p>Founder & CEO</p>
           </div>
           <div className="team-member">
-            <img src="./public/pexels-pixabay-247599.jpg" alt="Team Member 2" />
+            <img src="/pexels-pixabay-247599.jpg" alt="Team Member 2" />
             <h3>John Smith</h3>
             <p>Chief Marketing Officer</p>
           </div>
