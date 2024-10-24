@@ -36,13 +36,13 @@ const AboutUs = () => {
         <h2>Explore Our Latest Promotions</h2>
         <Slider {...sliderSettings}>
           <div>
-            <img src="./src/assets/formhouse.jpg" alt="Ad 1" />
+            <img src="./public/formhouse.jpg" alt="Ad 1" />
           </div>
           <div>
-            <img src="./src/assets/sky.jpg" alt="Ad 2" />
+            <img src="./public/sky.jpg" alt="Ad 2" />
           </div>
           <div>
-            <img src="./src/assets/girlbook.jpg" alt="Ad 3" />
+            <img src="./public/girlbook.jpg" alt="Ad 3" />
           </div>
         </Slider>
       </div>
@@ -60,12 +60,12 @@ const AboutUs = () => {
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-member">
-            <img src="./src/assets/pexels-pixabay-247599.jpg" />
+            <img src="./public/pexels-pixabay-247599.jpg" />
             <h3>Jane Doe</h3>
             <p>Founder & CEO</p>
           </div>
           <div className="team-member">
-            <img src="https://images.pexels.com/photos/3770584/pexels-photo-3770584.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Team Member 2" />
+            <img src="./public/pexels-pixabay-247599.jpg" alt="Team Member 2" />
             <h3>John Smith</h3>
             <p>Chief Marketing Officer</p>
           </div>
