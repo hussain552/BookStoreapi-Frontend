@@ -36,13 +36,13 @@ const AboutUs = () => {
         <h2>Explore Our Latest Promotions</h2>
         <Slider {...sliderSettings}>
           <div>
-            <img src="./public/formhouse.jpg" alt="Ad 1" />
+            <img src="/formhouse.jpg" alt="Ad 1" />
           </div>
           <div>
-            <img src="./public/sky.jpg" alt="Ad 2" />
+            <img src="/sky.jpg" alt="Ad 2" />
           </div>
           <div>
-            <img src="./public/girlbook.jpg" alt="Ad 3" />
+            <img src="/girlbook.jpg" alt="Ad 3" />
           </div>
         </Slider>
       </div>
