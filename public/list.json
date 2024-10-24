@@ -1,0 +1,60 @@
+const books = [
+    {
+      name: "The Great Gatsby",
+      price: 15.99,
+      category: "Paid",
+      image: "https://example.com/great-gatsby.jpg",
+      title: "Classic American Novel",
+    },
+    {
+      name: "Introduction to Algorithms",
+      price: 55.99,
+      category: "Paid",
+      image: "https://example.com/intro-to-algorithms.jpg",
+      title: "Computer Science Textbook",
+    },
+    {
+      name: "The Art of War",
+      price: 0.00,
+      category: "Free",
+      image: "https://example.com/art-of-war.jpg",
+      title: "Ancient Military Strategy",
+    },
+    {
+      name: "Pride and Prejudice",
+      price: 10.99,
+      category: "Paid",
+      image: "https://example.com/pride-and-prejudice.jpg",
+      title: "Classic Romance Novel",
+    },
+    {
+      name: "Moby Dick",
+      price: 0.00,
+      category: "Free",
+      image: "https://example.com/moby-dick.jpg",
+      title: "Adventure Novel",
+    },
+    {
+      name: "Clean Code",
+      price: 34.99,
+      category: "Paid",
+      image: "https://example.com/clean-code.jpg",
+      title: "Programming Best Practices",
+    },
+    {
+      name: "The Diary of a Young Girl",
+      price: 0.00,
+      category: "Free",
+      image: "https://example.com/diary-of-a-young-girl.jpg",
+      title: "Historical Memoir",
+    },
+    {
+      name: "The Catcher in the Rye",
+      price: 12.99,
+      category: "Paid",
+      image: "https://example.com/catcher-in-the-rye.jpg",
+      title: "Coming-of-Age Novel",
+    },
+  ];
+  
+  export default books;  
