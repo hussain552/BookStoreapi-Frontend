@@ -69,7 +69,7 @@ function Freebook() {
       <div>
         <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
         <p>
-          Discover amazing free book offers. Learn new skills with these great resources for free or under $7.
+          Discover amazing free book offers. Learn new skills with these great resources for free or under $.
         </p>
       </div>
 
