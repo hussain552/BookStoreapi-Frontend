@@ -26,7 +26,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Layout />}>
         <Route path="" element={<Home />} /> {/* Default route for '/' */}
         <Route path="about" element={<AboutUs />} />
-        <Route path="contacts" element={<ContactUS/>} />
+        <Route path="contact" element={<ContactUS/>} />
 
         {/* Conditionally render Course based on auth status */}
         <Route

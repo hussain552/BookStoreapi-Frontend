@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../context/AuthProvider";
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
-  
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
@@ -38,22 +37,24 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const navItems = (
     <>
       <li>
         <Link to="/">Home</Link>
       </li>
       <li>
-      <Link to="/course">Course</Link>
+        <Link to="/course">Course</Link>
       </li>
       <li>
-        <Link to="/contacts">ContactUs</Link>
+        <Link to="/contact">Contact</Link>
       </li>
       <li>
-        <Link to="/About"> About</Link>
+        <Link to="/about">About</Link>
       </li>
     </>
   );
+
   return (
     <>
       <div
@@ -93,7 +94,8 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <Link to ="/" className=" text-2xl font-bold cursor-pointer">bookStore</Link>
+            
+            <Link to="/" className=" text-2xl font-bold cursor-pointer">bookStore</Link>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -121,7 +123,6 @@ function Navbar() {
               </label>
             </div>
             <label className="swap swap-rotate">
-              {/* this hidden checkbox controls the state */}
               <input
                 type="checkbox"
                 className="theme-controller"

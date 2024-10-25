@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+
 const ContactUS = () => {
   const [statusMessage, setStatusMessage] = useState('');
   const [formData, setFormData] = useState({
@@ -25,9 +26,15 @@ const ContactUS = () => {
         name: '',
         email: '',
         subject: '',
-        message: ''
+        message: '',
+       
       });
-    } catch (error) {
+      const {msg}=response.data
+      if (response.data){
+        toast.success(msg);
+      }
+    } 
+    catch (error) {
       console.error('Error submitting the form:', error);
       setStatusMessage('Failed to send the message. Please try again.');
     }

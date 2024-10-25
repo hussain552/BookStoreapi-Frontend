@@ -23,7 +23,7 @@ function Signup() {
     };
 
     try {
-      const res = await axios.post("user/signup", userInfo);
+      const res = await axios.post("https://bookstoreapi-backend-1.onrender.com/user/signup", userInfo);
       console.log(res.data);
       if (res.data) {
         toast.success("Signup Successfully");
